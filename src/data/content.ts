@@ -16,7 +16,7 @@
  */
 
 /** 照片目录 + 路径助手 */
-export const photoDir = '/photos/'
+export const photoDir = './photos/'
 export const photo = (file: string) => `${photoDir}${file}`
 
 /* ------------------------------------------------------------
@@ -261,7 +261,7 @@ export const birthday = {
  * ------------------------------------------------------------ */
 export const music = {
   enabled: false, // ← 放入音乐后改成 true
-  src: '/music/our-song.mp3',
+  src: './music/our-song.mp3',
   title: 'Our Song',
   volume: 0.45,
   loop: true,

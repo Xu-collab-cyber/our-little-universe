@@ -22,7 +22,7 @@ export default function Story() {
           >
             <p className="timeline-date">{item.date}</p>
             <h2 className="timeline-title">{item.title}</h2>
-            <Photo src={photo(item.photo)} alt={item.title} ratio="4 / 3" hint={photo(item.photo)} />
+            <Photo src={photo(item.photo)} alt={item.title} ratio="4 / 3" hint={'public/photos/' + item.photo} />
             <p className="timeline-text">{item.text}</p>
             {item.note && <p className="timeline-note">{item.note}</p>}
           </Reveal>

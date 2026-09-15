@@ -58,7 +58,7 @@ export default function Birthday() {
             alt={current.alt}
             ratio="4 / 5"
             className="birthday-photo"
-            hint={photo(current.src)}
+            hint={'public/photos/' + current.src}
           />
         )}
         {current.type === 'lines' && (
