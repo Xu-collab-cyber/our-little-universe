@@ -73,7 +73,7 @@ export const story = {
       text: '这里以后写第一次约会的故事。',
     },
     {
-      date: '2025.01.01',
+      date: '2026.01.01',
       title: '一起跨年',
       photo: 'story-03.jpg',
       text: '这里以后放照片、视频和故事。',
