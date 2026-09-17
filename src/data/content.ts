@@ -73,15 +73,21 @@ export const story = {
       text: '这里以后写第一次约会的故事。',
     },
     {
+      date: '2025.06.16',
+      title: '第一次旅行',
+      photo: 'story-03.jpg',
+      text: '这里以后写第一次旅行的故事。',
+    },
+    {
       date: '2026.01.01',
       title: '一起跨年',
-      photo: 'story-03.jpg',
+      photo: 'story-04.jpg',
       text: '这里以后放照片、视频和故事。',
     },
     {
       date: '2026.09.XX',
       title: '今天',
-      photo: 'story-04.jpg',
+      photo: 'story-05.jpg',
       text: '生日快乐。',
       note: '这里以后放生日当天的照片和我想对她说的话。',
       highlight: true,
