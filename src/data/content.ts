@@ -61,7 +61,7 @@ export const story = {
   title: '我们的故事',
   items: [
     {
-      date: '2024.03.16',
+      date: '2023.03',
       title: '第一次见面',
       photo: 'story-01.jpg',
       text: '这里以后写我们第一次见面的故事。',
