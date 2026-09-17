@@ -4,8 +4,9 @@
 
   story-01.jpg   我们的故事 · 第一次见面
   story-02.jpg   我们的故事 · 第一次约会
-  story-03.jpg   我们的故事 · 一起跨年
-  story-04.jpg   我们的故事 · 今天（生日）
+  story-03.jpg   我们的故事 · 第一次旅行
+  story-04.jpg   我们的故事 · 一起跨年
+  story-05.jpg   我们的故事 · 今天（生日）
   about-01.jpg   关于你 · 01
   about-02.jpg   关于你 · 02
   ...            （一直到 about-10.jpg）
