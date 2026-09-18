@@ -88,7 +88,7 @@ export const story = {
       date: '2026.10.05',
       title: '第一次去找你',
       photo: 'story-05.jpg',
-      text: '这里以后写第一次去找你的故事。',
+      text: '第一次跨越异地的距离，去见那个我想见的人',
     },
     {
       date: '2026.01.01',
