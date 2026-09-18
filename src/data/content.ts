@@ -94,7 +94,7 @@ export const story = {
       date: '2026.01.01',
       title: '一起跨年',
       photo: 'story-06.jpg',
-      text: '这里以后放照片、视频和故事。',
+      text: '第一次一起迎接新的一年，也把这一年的最后一刻留给彼此',
     },
     {
       date: '2026.09.XX',
