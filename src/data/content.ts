@@ -70,7 +70,7 @@ export const story = {
       date: '2024.03',
       title: '第一张合照',
       photo: 'story-02.jpg',
-      text: '这里以后写第一张合照的故事。',
+      text: '从这一刻开始，我们的故事有了第一张照片',
     },
     {
       date: '2024.05.21',
