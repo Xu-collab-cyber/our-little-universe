@@ -20,6 +20,7 @@
     'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
   --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
@@ -172,18 +173,25 @@ ol {
   height: 16px;
 }
 
-/* ---------- 音乐按钮 ---------- */
+/* ---------- 音乐按钮（右下角悬浮，极简 ♪） ---------- */
 
 .music-btn {
+  position: fixed;
+  right: calc(16px + var(--safe-right));
+  bottom: calc(16px + var(--safe-bottom));
+  z-index: 50;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  width: 38px;
+  height: 38px;
   border: 1px solid var(--line-strong);
   border-radius: 50%;
+  background: rgba(10, 12, 28, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   color: var(--text-faint);
-  transition: color 0.4s ease, border-color 0.4s ease;
+  transition: color 0.4s ease, border-color 0.4s ease, background 0.4s ease;
 }
 
 .music-btn:hover,
@@ -195,6 +203,7 @@ ol {
 .music-btn.is-playing {
   color: var(--gold);
   border-color: var(--gold-soft);
+  background: rgba(10, 12, 28, 0.75);
   animation: music-pulse 3.2s ease-in-out infinite;
 }
 
@@ -209,8 +218,8 @@ ol {
 }
 
 .music-btn svg {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
 }
 
 .music-notice {

@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import StarField from './components/StarField'
+import MusicButton from './components/MusicButton'
 import Opening from './pages/Opening'
 import Home from './pages/Home'
 import Story from './pages/Story'
@@ -13,6 +14,8 @@ import Birthday from './pages/Birthday'
  * 路由入口。
  * 所有页面共享一层非常微弱的背景星空；
  * key 绑定 pathname，让每次页面切换都重新播放入场动画。
+ * MusicButton 挂在这里（而不是某个页面里）：同一个 Audio 实例
+ * 跨页面存活，切换页面时音乐不会中断、也不会重新播放。
  */
 export default function App() {
   const location = useLocation()
@@ -20,6 +23,7 @@ export default function App() {
   return (
     <div className="app">
       <StarField density={0.35} className="global-stars" />
+      <MusicButton />
 
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Opening />} />

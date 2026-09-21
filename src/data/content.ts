@@ -271,16 +271,14 @@ export const birthday = {
 }
 
 /* ------------------------------------------------------------
- * Music 音乐系统（预留）
- * 现在还没有音乐。以后：
- *   1. 把音乐文件放到 public/music/our-song.mp3
- *   2. 把 enabled 改成 true
+ * Music 背景音乐
  * 音乐不会自动播放（手机浏览器会阻止），由用户点击 ♪ 开始。
+ * 把音乐文件放到 public/music/ 下，改 src 即可。
  * ------------------------------------------------------------ */
 export const music = {
-  enabled: false, // ← 放入音乐后改成 true
-  src: './music/our-song.mp3',
+  enabled: true,
+  src: './music/our-song.m4a',
   title: 'Our Song',
-  volume: 0.45,
+  volume: 0.4, // 音量轻一点，不盖过文字和氛围
   loop: true,
 }

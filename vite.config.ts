@@ -1,4 +1,4 @@
-1import { defineConfig } from 'vite'
+import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
@@ -34,8 +34,8 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // 缓存构建产物；以后放入音乐后也会自动缓存（离线可用）
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,mp3,jpg,jpeg,webp}'],
+        // 缓存构建产物；音乐文件也会自动缓存（离线可用）
+        globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,mp3,m4a,jpg,jpeg,webp}'],
         maximumFileSizeToCacheInBytes: 30 * 1024 * 1024, // 为未来的音乐文件留出空间
       },
     }),

@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react'
 import BackButton from './BackButton'
-import MusicButton from './MusicButton'
 import { cn } from '../utils/cn'
 
 interface PageShellProps {
@@ -17,15 +16,15 @@ interface PageShellProps {
 }
 
 /**
- * 页面外壳：统一的顶栏（返回 + 音乐）、页头排版与安全区留白。
+ * 页面外壳：统一的顶栏（返回）、页头排版与安全区留白。
  * 页面切换动画由 .page 类统一处理。
+ * 音乐按钮不在这里：它挂在 App 层，保证切换页面时音乐连续。
  */
 export default function PageShell({ title, subtitle, kicker, backTo, className, children }: PageShellProps) {
   return (
     <div className={cn('page', 'page-inner', className)}>
       <div className="topbar">
         {backTo ? <BackButton to={backTo} /> : <span />}
-        <MusicButton />
       </div>
       {title && (
         <header className="page-head">
