@@ -76,7 +76,7 @@ export const story = {
       date: '2024.05.21',
       title: '第一次约会',
       photo: 'story-03.jpg',
-      text: '这里以后写第一次约会的故事。',
+      text: '平凡的一天，因为身边是你，也变得值得被记住',
     },
     {
       date: '2025.06.16',
