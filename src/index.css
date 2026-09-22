@@ -1037,17 +1037,6 @@ a.letter-row:hover .letter-row-chev {
   margin-bottom: 16px;
 }
 
-.about-card .photo {
-  margin-bottom: 16px;
-}
-
-.about-card-text {
-  font-size: 13px;
-  letter-spacing: 0.08em;
-  line-height: 2;
-  color: var(--text-dim);
-}
-
 /* ============================================================
    Our Future 我们的未来
    ============================================================ */

@@ -17,7 +17,6 @@ export default function AboutYou() {
               <p className="about-card-no">{String(item.no).padStart(2, '0')}</p>
               <h2 className="about-card-title">{item.title}</h2>
               <Photo src={photo(item.photo)} alt={item.title} ratio="1 / 1" hint={'public/photos/' + item.photo} />
-              <p className="about-card-text">{item.text}</p>
             </article>
           </Reveal>
         ))}

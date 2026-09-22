@@ -198,23 +198,22 @@ export interface AboutItem {
   no: number
   title: string
   photo: string
-  text: string
 }
 
 export const about = {
   title: 'THINGS I LOVE ABOUT YOU',
   subtitle: '关于你的很多小事。',
   items: [
-    { no: 1, title: '你的笑容', photo: 'about-01.jpg', text: '这里以后写我喜欢你的一个细节。' },
-    { no: 2, title: '你开心的时候', photo: 'about-02.jpg', text: '这里以后写一个只有我注意到的细节。' },
-    { no: 3, title: '你认真的样子', photo: 'about-03.jpg', text: '这里以后写我喜欢你的一个细节。' },
-    { no: 4, title: '你说话的声音', photo: 'about-04.jpg', text: '这里以后写一个只有我注意到的细节。' },
-    { no: 5, title: '你喊我名字的时候', photo: 'about-05.jpg', text: '这里以后写我喜欢你的一个细节。' },
-    { no: 6, title: '你等我的耐心', photo: 'about-06.jpg', text: '这里以后写一个只有我注意到的细节。' },
-    { no: 7, title: '你傻乎乎的样子', photo: 'about-07.jpg', text: '这里以后写我喜欢你的一个细节。' },
-    { no: 8, title: '你生气也那么可爱', photo: 'about-08.jpg', text: '这里以后写一个只有我注意到的细节。' },
-    { no: 9, title: '你和我在一起的时候', photo: 'about-09.jpg', text: '这里以后写我喜欢你的一个细节。' },
-    { no: 10, title: '你是我的全部', photo: 'about-10.jpg', text: '这里以后写最重要的一句话。' },
+    { no: 1, title: '你的笑容', photo: 'about-01.jpg' },
+    { no: 2, title: '你开心的时候', photo: 'about-02.jpg' },
+    { no: 3, title: '你认真的样子', photo: 'about-03.jpg' },
+    { no: 4, title: '你说话的声音', photo: 'about-04.jpg' },
+    { no: 5, title: '你喊我名字的时候', photo: 'about-05.jpg' },
+    { no: 6, title: '你等我的耐心', photo: 'about-06.jpg' },
+    { no: 7, title: '你傻乎乎的样子', photo: 'about-07.jpg' },
+    { no: 8, title: '你生气也那么可爱', photo: 'about-08.jpg' },
+    { no: 9, title: '你和我在一起的时候', photo: 'about-09.jpg' },
+    { no: 10, title: '你是我的全部', photo: 'about-10.jpg' },
   ] as AboutItem[],
 }
 
